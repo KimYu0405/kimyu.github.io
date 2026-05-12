@@ -20,7 +20,29 @@
                 <button type="submit" class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded transition">
                     立即獲取 PDF
                 </button>
-            </form>
+            <form action="https://formspree.io/f/你的_ID" method="POST" class="space-y-4">
+    
+    <input type="hidden" name="_next" value="https://你的帳號.github.io/專案名/index.html#sales-section">
+    
+    <input type="hidden" name="_subject" value="新客戶名單：Trivago 旅遊手冊領取">
+
+    <div>
+        <label class="block text-left text-sm font-medium text-gray-700">您的名字</label>
+        <input type="text" name="name" required 
+               class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-500 outline-none">
+    </div>
+
+    <div>
+        <label class="block text-left text-sm font-medium text-gray-700">電子信箱</label>
+        <input type="email" name="email" required 
+               class="w-full p-3 border rounded focus:ring-2 focus:ring-blue-500 outline-none">
+    </div>
+
+    <button type="submit" 
+            class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded shadow-lg transition duration-300">
+        立即免費領取 E-book
+    </button>
+</form>
         </div>
     </section>
 
